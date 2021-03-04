@@ -270,9 +270,9 @@ h6 {
 	font-size: 16px;
 	content: 'еще раз? кликни здесь';
 	position: absolute;
-	top: 0;
-	left: 0;
-	width: 120px;ы
+	top: 20px;
+	left: 30px;
+	width: 120px;
 	height: 50px;
 }
 
@@ -282,4 +282,5 @@ h6 {
 
 .popup:active {
 	visibility: hidden;
+	width: 0;
 }
